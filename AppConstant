@@ -1,0 +1,19 @@
+package com.redmine;
+
+public interface AppConstants
+{
+
+    //Redmine API
+    static final String REDMINE_API = "http://10.189.43.25:8080/redmine";
+    static final String API_ACESS_KEY = "a343ca48b1491763831603bacf812d25a80cbcea";//92d49d4c3116d88e74305d9002f98a208522827f
+    static final String PHASE_KEY =  "phase-vi";
+
+
+    //Configuraion
+    static final String ORACLE_DRIVER_CLASS = "oracle.jdbc.driver.OracleDriver";
+    static final String DB_URL = "jdbc:oracle:thin:@10.189.56.75:1521/LLMSSIT";
+    static final String DB_USER = "llms_dev";
+    static final String DB_PWD =  "llms_dev";
+
+    
+}
